@@ -1,8 +1,10 @@
 body {
   font-family: "Edu AU VIC WA NT Guides", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
+  color: white;
+  font-size:7rem;
 }
 
 .spin {
