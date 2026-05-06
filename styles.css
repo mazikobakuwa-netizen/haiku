@@ -13,7 +13,7 @@ body {
 }
 
 .spin:active {
-  animation: spin-once 5s ease forwards;
+  animation: spin-once 1s ease forwards;
 }
 
 @keyframes spin-once{
