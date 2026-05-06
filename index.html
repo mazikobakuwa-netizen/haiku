@@ -6,9 +6,21 @@
 	<title>The Untruth Truth</title>
 	<link rel="stylesheet" href="styles.css">
    <style>
-  @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
-  
-     body {
+	   body {
+	   @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+  		.spin {
+			  display: inline-block;
+			  cursor: pointer;
+			}
+			
+			.spin:active {
+			  animation: spin-once 1s ease forwards;
+			}
+			
+			@keyframes spin-once{
+			  from {transform: rotate(0deg); }
+			  to {transform: rotate(360deg); }
+			}
        background-image: url('cagedbird.jpg');
        background-repeat: no repeat;
        background-size: cover;
