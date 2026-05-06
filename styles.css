@@ -13,10 +13,10 @@ body {
 }
 
 .spin:active {
-  animation: spin-twice 5s ease forwards;
+  animation: spin-once 1s ease forwards;
 }
 
-@keyframes spin-twice{
+@keyframes spin-once{
   from {transform: rotate(0deg); }
   to {transform: rotate(360deg); }
 }
